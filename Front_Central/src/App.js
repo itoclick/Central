@@ -1,4 +1,5 @@
-import logo from '../public/central.png';
+import logo from './images/central.png';
+import bgImg from './images/istockphoto-1319949489-640x640.jpg';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
         <div id="fundoretangulo">
           <div>
             <img src={logo} alt="logo" id="img"/>
-            <h3>Bem vindo.</h3>
+            <h3>Bem vinda(o).</h3>
             <div id="inputs">
               <label htmlFor="nomeDaEntrada">Nome: </label>
               <input id="nomeDaEntrada" type="text" name="nome"/>
@@ -22,6 +23,7 @@ function App() {
             </div>
           </div>
         </div>
+        <span>direitos reservados itoclick</span>
       </main>
     </div>
   );

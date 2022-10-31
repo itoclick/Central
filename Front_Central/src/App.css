@@ -1,34 +1,42 @@
+body {
+  background-image: url(./images/photo-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App {
   text-align: center;
-  background-color: rgb(42, 50, 165);
+  background-color: rgba(92, 134, 211, 0.562);
   display: flex;
   justify-content: center;
 }
 
 #fundoretangulo {
-  background-color: rgba(201, 37, 37, 0.9);
+  background-color: rgba(2, 25, 29, 0.568);
   width: 400px;
-  height: 500px;
+  height: 700px;
   display: flex;
   justify-content: center;
 }
 
 
+
 img {
-  height: 40vmin;
-  pointer-events: none;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  position: relative;
 }
 
 input {
   margin-top: 10px;
   font-size: large;
   border-radius: 10px;
+  width: auto;
 }
 
 button {
   margin-top: 10px;
   font-size: large;
-  color: brown;
+  color:rgba(6, 9, 53, 0.932);
 }
 
 label {

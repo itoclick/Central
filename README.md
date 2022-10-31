@@ -1,5 +1,5 @@
 # <center><font color="Teal">Central - ERP</font></center>
-## <center><font color="Teal">Central ERP is created to centralize sectors of a enterprise and make ease administration.</font></center>
+## <center><font color="Teal">Central ERP is created to centralize Departments in a company and make ease administration.</font></center>
 <br>
 <br>
 <br>
