@@ -1,0 +1,40 @@
+body {
+background-image: url(../../../images/bgblue.webp) ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.boxies {
+display: flex;
+background-color: rgba(57 122 192 / 44%);;
+height: auto;
+}
+
+.cxmodulo {
+    box-sizing:border-box;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    border-radius: 15%;
+    background-color: rgba(127, 233, 198, 0.336);
+    
+}
+
+.cabeca {
+    color: aliceblue;
+    margin-left: 40%;
+}
+
+.iconModules {
+   
+    align-items: center;
+    border-radius: 15%;
+    display: flex;
+    flex-shrink: 0;
+    height: 50px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+}
+    
