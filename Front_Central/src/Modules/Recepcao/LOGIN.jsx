@@ -11,7 +11,7 @@ function login() {
         <div id="fundoretangulo">
           <div>
             <img src={logo} alt="logo" id="img"/>
-            <h3>Bem vinda(o).</h3>
+            <h3>Bem vindo(a).</h3>
             <div id="inputs">
               <label htmlFor="nomeDaEntrada">Nome: </label>
               <input id="nomeDaEntrada" type="text" name="nome"/>
