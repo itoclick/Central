@@ -12,11 +12,10 @@ const tbUsuarios = process.env.TB_USUARIOS;
 
 export  const conectDB = async () => {
   try {
-    await mongoose.connect(uri, {dbName: banco
-        });
+    await mongoose.connect(uri, { serverApi: { version: '1', strict: true, deprecationErrors: true } });
     console.log('Conectado ao MongoDB');
   } catch (error) {
-    console.error('Erro ao conectar ao MongoDB:', error);
+    console.error('Erro ao conectar ao MongoDB:' , error);
   }
  }
     
